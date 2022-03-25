@@ -4,7 +4,7 @@
  *   /  / /  / /__/ / / / /  /
  *  /  / /__/ /__  /   / /__/
  *      /
- *     /    version 0.9.0
+ *     /                 
  *
  * Copyright 2002 Daniel Nilsson
  *
@@ -38,7 +38,7 @@ static char *about_line[] = {"C   /                      ",
                              "C /  / /  / /__/ / / / /  /",
                              "C/  / /__/ /__  /   / /__/ ",
                              "C    /                     ",
-                             "C   /    version 0.9.0     ",
+                             "C   /                      ",
                              "P",
                              " Copyright 2002 Daniel Nilsson",
                              "P",

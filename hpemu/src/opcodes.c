@@ -4,7 +4,7 @@
  *   /  / /  / /__/ / / / /  /
  *  /  / /__/ /__  /   / /__/
  *      /
- *     /    version 0.9.0
+ *     /                 
  *
  * Copyright 2002 Daniel Nilsson
  *

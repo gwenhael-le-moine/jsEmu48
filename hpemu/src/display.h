@@ -28,13 +28,14 @@
 #ifndef __DISPLAY_H
 #define __DISPLAY_H
 
-//#include <allegro.h>
+#include <stdlib.h>
+
 #ifdef __EMSCRIPTEN__
 #include "SDL.h"
 #else
 #include <SDL2/SDL.h>
 #endif
-#include <stdlib.h>
+
 #include "types.h"
 
 extern address menu_base;
@@ -49,6 +50,5 @@ void display_init(void);
 void display_exit(void);
 void display_update(void);
 void display_show();
-
 
 #endif

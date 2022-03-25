@@ -30,11 +30,7 @@
 
 #include "types.h"
 
-enum EmulatorStates {
-    EMULATOR_STOP,
-    EMULATOR_STEP,
-    EMULATOR_RUN
-};
+enum EmulatorStates { EMULATOR_STOP, EMULATOR_STEP, EMULATOR_RUN };
 
 void true_speed_proc(void);
 

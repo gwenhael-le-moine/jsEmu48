@@ -29,21 +29,18 @@
 #define __PCALC_H
 
 #ifdef __EMSCRIPTEN__
-  #include "SDL.h"
+#include "SDL.h"
 #else
-  #include <SDL2/SDL.h>
+#include <SDL2/SDL.h>
 #endif
+
 #include "types.h"
 
 typedef struct {
-	SDL_Keycode SDL_event_id;
-	void (*down)(void);
-	void (*up)(boolean action);
+  SDL_Keycode SDL_event_id;
+  void (*down)(void);
+  void (*up)(boolean action);
 } KBMapping;
-
-
-	
-	
 
 void pcalc_init();
 void pcalc_show();
@@ -52,6 +49,5 @@ void pcalc_down(int mx, int my, int mb);
 void pcalc_up(int mx, int my, int mb);
 void pcalc_kb_down(SDL_Keycode sdl_event);
 void pcalc_kb_up(SDL_Keycode sdl_event);
-
 
 #endif

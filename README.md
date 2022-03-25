@@ -11,21 +11,21 @@ https://www.libsdl.org/download-2.0.php
 https://www.libsdl.org/projects/SDL_image/
 
 * Install Emscripten
-git clone https://github.com/emscripten-core/emsdk
-cd emsdk
-./emsdk install latest
-./emsdk activate latest
-source ./emsdk_env.sh
+`git clone https://github.com/emscripten-core/emsdk`
+`cd emsdk`
+`./emsdk install latest`
+`./emsdk activate latest`
+`source ./emsdk_env.sh`
 
 * Compile js version
-make js
+`make js`
 
 * Serve js version locally (needs ruby)
-make js-serve
+`make js-serve`
 Visit http://localhost:9999/
 
 * To build the desktop version
-make
+`make`
 
 
 CREDITS

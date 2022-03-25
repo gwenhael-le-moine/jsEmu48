@@ -4,7 +4,7 @@
  *   /  / /  / /__/ / / / /  /
  *  /  / /__/ /__  /   / /__/
  *      /
- *     /                 
+ *     /
  *
  * Copyright 2002 Daniel Nilsson
  *
@@ -27,6 +27,8 @@
 
 #ifndef __PFILES_H
 #define __PFILES_H
+
+#include "types.h"
 
 void load_up(boolean action);
 void load_file(char *name);

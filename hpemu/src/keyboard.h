@@ -4,7 +4,7 @@
  *   /  / /  / /__/ / / / /  /
  *  /  / /__/ /__  /   / /__/
  *      /
- *     /                 
+ *     /
  *
  * Copyright 2002 Daniel Nilsson
  *
@@ -27,6 +27,8 @@
 
 #ifndef __KEYBOARD_H
 #define __KEYBOARD_H
+
+#include "types.h"
 
 extern boolean kbd_on;
 
